@@ -16,6 +16,9 @@
  *  limitations under the License
  *
  */
+ 
+ var GOOGLE_MAPS_API_KEY = "AIzaSyBMspAFvDHwuhBQHX5bLsObLDKjfE95Okw";
+ 
 (function () {
   'use strict';
 
