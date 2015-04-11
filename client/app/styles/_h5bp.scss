@@ -64,13 +64,26 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.abs { position: absolute; }
+.rel  { position: relative; }
+.fw   { width: 100%; }
+.fh   { height: 100%; }
+.fwh  { width: 100%; height: 100%; }
 
-*
-{
-	transition: all 1.0s ease-out !important;
-}
+.m1  { margin: 1px; }
+.m2  { margin: 2px; }
+.m4  { margin: 4px; }
+.m8  { margin: 8px; }
+.m10 { margin: 10px; }
 
+.tw-alpha { transition: opacity 0.2s ease-out; }
+.tw-xy    { transition: left 0.2s ease-out, top 0.2s ease-out; }
+.tw-x     { transition: left 0.2s ease-out; }
+.tw-y     { transition: top 0.2s ease-out; }
 
+.fr { float: right; }
+.fl { float: left; }
+.ib { display: inline-block; }
 
 /* ==========================================================================
    Helper classes

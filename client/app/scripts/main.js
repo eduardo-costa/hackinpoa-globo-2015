@@ -19,6 +19,18 @@
  
  var GOOGLE_MAPS_API_KEY = "AIzaSyBMspAFvDHwuhBQHX5bLsObLDKjfE95Okw";
  
+ window.onload = 
+ function() 
+ {
+	var mapOptions = 
+	{
+        center: new google.maps.LatLng(-30.0323495,-51.2012139),
+        zoom: 14,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
+    var map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
+ };
+ 
 (function () {
   'use strict';
 
